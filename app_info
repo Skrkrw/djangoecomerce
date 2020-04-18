@@ -1,0 +1,29 @@
+python3 ~workspace/manage.py runserver
+pip3 install django==1.11.29
+
+Creating project
+    django-admin startproject ecomercer .
+
+python3 manage.py runserver
+
+echo '*.sqlite3' >> .gitignore
+
+python3 manage.py makemigrations
+python3 manage.py makemigrations accounts
+python3 manage.py migrate
+
+pip3 install django-forms-bootstrap
+
+python3 manage.py createsuperuser
+
+Python package that allows images to be upload
+pip3 install Pillow
+
+python3 manage.py makemigrations products
+
+Creating the tables on the DB
+python3 manage.py migrate products
+
+Testing products
+python3 manage.py test products
+
