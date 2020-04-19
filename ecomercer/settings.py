@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_forms_bootstrap',
     'accounts',
     'products',
+    'cart',
 ]
 
 MIDDLEWARE = [
@@ -69,6 +70,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media', # After this line we need a MEDIA_ROOT
+                'cart_contexts,cart_contents', # context_processors are  a list of things available on a webpage
             ],
         },
     },
@@ -131,5 +133,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# This is purely to fix an issue in C9
+# All medias 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+# This is purely to fix an issue in old C9
 # MESSAGE_STORAGE = 'django.contrib.messages.storage.SessionStorage'
+

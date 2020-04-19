@@ -27,3 +27,7 @@ python3 manage.py migrate products
 Testing products
 python3 manage.py test products
 
+Creating an app called cart
+python3 manage.py startapp cart
+
+
