@@ -111,10 +111,10 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Authentications Banckends
-AUTHENTICATION_BACKENDS = {
+AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'accounts.backends.CaseInsensitiveAuth'
-}
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
@@ -143,3 +143,7 @@ MEDIA_URL = '/media/'
 # This is purely to fix an issue in old C9
 # MESSAGE_STORAGE = 'django.contrib.messages.storage.SessionStorage'
 
+		
+STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE')	
+STRIPE_SECRET = os.getenv('STRIPE_SECRET')	
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
