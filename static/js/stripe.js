@@ -4,7 +4,7 @@ $(function(){
         var card = {
             number: $("#id_credict_card_number").val(),
             expMonth: $("#id_expiry_month").val,
-            expYear = $("#id_expiry_year").val(),
+            expYear: $("#id_expiry_year").val(),
             cvc: $("#id_cvv").val()
         };
     Stripe.create.Toekn(card, function(status, response){
@@ -26,5 +26,5 @@ $(function(){
         }
     });
     return false;
-    })
-})
+    });
+});
