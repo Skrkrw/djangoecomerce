@@ -64,6 +64,7 @@ s3transfer==0.3.3
 serverlessrepo==0.1.9
 six==1.14.0
 stevedore==1.32.0
+stripe==2.45.0
 tomlkit==0.5.8
 traitlets==4.3.3
 tzlocal==2.0.0
