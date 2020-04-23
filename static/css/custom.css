@@ -34,12 +34,12 @@ footer {
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    width: 150px;
+
     height: 150px;
     margin: 0 auto;
 }
 
-caption p{
+caption p {
     word-wrap: break-word;
 }
 
@@ -49,16 +49,16 @@ caption p{
     margin-top: 30px;
 }
 
-.panel-default{
+.panel-default {
     border-color: transparent;
     padding: 0 10px;
 }
 
-.panel-body{
+.panel-body {
     height: 100%;
     border: 1px solid #ddd;
 }
 
-.product-description{
+.product-description {
     min-height: 40px;
 }
