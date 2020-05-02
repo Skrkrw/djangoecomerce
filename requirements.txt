@@ -66,3 +66,4 @@ virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 wcwidth==0.1.9
 websocket-client==0.57.0
+unicorn==20.0.4
