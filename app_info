@@ -109,3 +109,5 @@ python3 manage.py collectstatic
 
 If CHrome throws an error paste next line in the S2 Cross policies
     <AllowedMethod>HEAD</AllowedMethod>
+    
+Media and static can be added to gitignore as they will stored in S3
