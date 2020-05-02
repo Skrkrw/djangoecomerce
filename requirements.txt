@@ -4,7 +4,6 @@ botocore==1.15.39
 certifi==2019.11.28
 chardet==3.0.4
 Click==7.0
-colorama==0.4.3
 cookiecutter==1.6.0
 dateparser==0.7.2
 decorator==4.4.2
