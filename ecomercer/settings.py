@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://8000-f3710005-17c7-431d-b7a2-71843f0d8bd4.ws-eu01.gitpod.io/', 
-'32b8ab71aaec4d6d827da5ad6f191d37.vfs.cloud9.us-east-1.amazonaws.com', 'https://jose-ecommerce.herokuapp.com/']
+'32b8ab71aaec4d6d827da5ad6f191d37.vfs.cloud9.us-east-1.amazonaws.com', 'jose-ecommerce.herokuapp.com/']
 
 
 # Application definition
